@@ -1,0 +1,7 @@
+"New transaction file" is just used for taking input from user. All the logics goes there for taking input value and submitting that value to transaction list.
+"Transaction list" is used for building and managing the list . Meaning the user data is shown in the form of list
+"User transaction" holds both "new_transaction" and "transaction_list" in the Column
+Now to pass list from parent to child widget we definetly use child class name as reference to pass the list to child, in this case we use reference of child by the name from which we make list on that page..
+then same on the child page to receive the list .. firstly make a new list by giving it any name then 'make a constructor' that is the main point..
+format -> class name of child (this.name of list)
+e.g. ListTransactions(this.transactions)
